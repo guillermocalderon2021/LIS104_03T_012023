@@ -62,6 +62,7 @@ foreach ($datos[0] as $clave => $valor) {
     $v=!is_array($valor)?$valor:implode($valor,', ');
     echo "<h3>".$clave."=".$v."</h3>";
 }
+
 ?>
 
 
